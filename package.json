@@ -1,0 +1,31 @@
+{
+  "name": "sus-language",
+  "displayName": "SUS Language",
+  "description": "This is Sus Language simpler and easy to code with",
+  "version": "0.0.1",
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/your-username/your-repository.git"
+    },
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "icon": "./icon.png",
+  
+  "contributes": {
+    "languages": [{
+      "id": "sus",
+      "aliases": ["SUS", "sus"],
+      "extensions": [".sus"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "sus",
+      "scopeName": "main.sus",
+      "path": "./syntaxes/sus.tmLanguage.json"
+    }]
+  }
+}
