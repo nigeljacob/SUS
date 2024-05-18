@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "repository": {
         "type": "git",
-        "url": "https://github.com/your-username/your-repository.git"
+        "url": "https://github.com/nigeljacob/SUS.git"
     },
   "engines": {
     "vscode": "^1.89.0"
